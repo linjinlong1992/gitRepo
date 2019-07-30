@@ -1,3 +1,19 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
+
+--创建SSH Key:
+ssh-keygen -t rsa -C "946414698@qq.com"
+
+git remote add origin git@github.com:linjinlong1992/gitRepo.git
+
+git remote add origin https://github.com/linjinlong1992/gitRepo.git
+
+git remote rm origin
+
+ssh -T git@github.com
+
+git push origin master
+
+git clone git@github.com:linjinlong1992/cici.git
+
