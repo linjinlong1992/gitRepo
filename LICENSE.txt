@@ -17,5 +17,16 @@ git push origin master
 
 git push -u origin master //第一次把当前分支master推送到远程，-u参数不但推送，而且将本地的分支和远程的分支关联起来
 
+git push
+
 git clone git@github.com:linjinlong1992/cici.git
 
+ls -a //显示当前目录下的所有文件及文件夹包括隐藏的.和..等
+
+ls -l //显示不隐藏的文件与文件夹的详细信息
+
+ls -al //显示当前目录下的所有文件及文件夹包括隐藏的.和..等的详细信息
+
+echo "clone demo">>clone.txt
+
+cat clone.txt
