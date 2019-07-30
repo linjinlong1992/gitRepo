@@ -30,3 +30,15 @@ ls -al //显示当前目录下的所有文件及文件夹包括隐藏的.和..�
 echo "clone demo">>clone.txt
 
 cat clone.txt
+
+----标签
+git tag v1.0                                                                      //给当前分支最新的commit打标签
+git tag -a v0.1 -m 'version 0.1 released' 3628164                 //-a指定标签名，-m指定说明文字
+git tag -s <tagname> -m 'blabla'                                        //可以用PGP签名标签
+git tag                                                                             //查看所有标签
+git show v1.0                                                                   //查看标签信息
+git tag -d v0.1                                                                 //删除标签
+git push origin <tagname>                                               //推送某个标签到远程
+git push origin --tags                                                       //推送所有尚未推送的本地标签
+
+ 
