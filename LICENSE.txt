@@ -41,4 +41,24 @@ git tag -d v0.1                                                                 
 git push origin <tagname>                                               //推送某个标签到远程
 git push origin --tags                                                       //推送所有尚未推送的本地标签
 
+git rm <file>                                               //删除文件，若文件已提交到版本库，不用担心误删，但是只能恢复文件到最新版本
+
+----创建分支
+git checkout -b dev //创建并切换
+
+相当于以下两条命令
+git branch dev
+git checkout dev
+
+git checkout master //切换回master分支
+
+git merge dev //合并到master分支
+
+git branch -d dev //删除dev分支
+
+
+
+
+
+
  
