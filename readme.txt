@@ -1,2 +1,2 @@
 gitee
-Creating a new branch is quick AND simple.
+Creating a master branch is quick AND simple.
